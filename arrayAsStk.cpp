@@ -23,10 +23,10 @@ class Stack{
     void pop(){
         if (top < 0)
         {
-            cout<<"stack is empty"<<endl;
+            cout<<"stack is empty..."<<endl;
             return;
         }
-        cout<<"removed item is "<<stak[top]<<endl;
+        cout<<"removed item is :"<<stak[top]<<endl;
         top--;  
     }
     void disp(){
@@ -44,8 +44,8 @@ int main(){
     s1.push(5);
     s1.push(6);
     s1.push(4);
-    // s1.pop();
-    // s1.pop();
+    s1.pop();
+    s1.pop();
     s1.disp();
     return 0;
 }
