@@ -93,13 +93,24 @@ int main()
         }
         else if (input[i] == ')')
         {
-            char ch1;
-            do
-            {
-                ch1 = s1.pop();
-                output[j] = ch1;
-                j++;
-            } while (ch1 != '(');
+           
+
+            while (1)
+                {
+                    if (!s1.isEmpty())
+                    {
+                        char c = s1.pop();
+                        if (c != '(')
+                        {
+                            output[j] = c;
+                            j++;
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                }
 
         }
 
