@@ -76,7 +76,7 @@ public:
             }
             for (int j = 0; j <= rear; j++)
             {
-                cout << list[j]<<endl;
+                cout << list[j<<endl;
             }
         }
     }
