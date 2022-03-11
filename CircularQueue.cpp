@@ -13,7 +13,6 @@ public:
         rear = -1;
         front = -1;
     }
-
     void enqueue(int x)
     {
 
@@ -22,7 +21,7 @@ public:
             cout << "queue is full " << endl;
             return;
         }
-        else if (front == -1 && rear ==-1)
+        else if (front == -1 && rear == -1)
         {
             front = rear = 0;
         }
@@ -37,7 +36,6 @@ public:
         list[rear] = x;
         cout << list[rear] << endl;
     }
-
     void dequeue()
     {
         if (front == -1)
@@ -65,18 +63,18 @@ public:
         {
             for (int i = front; i <= rear; i++)
             {
-                cout << list[i]<<endl;
+                cout << list[i] << endl;
             }
         }
         else if (rear < front)
         {
             for (int i = front; i <= 4; i++)
             {
-                cout << list[i]<<endl;
+                cout << list[i] << endl;
             }
             for (int j = 0; j <= rear; j++)
             {
-                cout << list[j<<endl;
+                cout << list[j] << endl;
             }
         }
     }
