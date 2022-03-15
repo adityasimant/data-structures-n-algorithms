@@ -27,7 +27,6 @@ public:
 
             start = p;
             p->next = start;
-            // cout<<start<<":"<<start->data<<endl;
         }
         else
         {
@@ -84,7 +83,6 @@ public:
             temp2 = temp;
             temp = temp->next;
         } while (temp != start);
-        //    cout<<temp2<<"\t"<<temp1<<endl;
         temp2->next = temp1;
     }
     void replace(int x, int y)
@@ -108,11 +106,5 @@ int main()
 {
     List l1;
 
-    l1.insert(10);
-    // l1.deleteItem(10);
-    l1.Disp();
-    // l1.replace(20,60);
-    // l1.Disp();
-    //    l1.replace(20,69);
     return 0;
 }
