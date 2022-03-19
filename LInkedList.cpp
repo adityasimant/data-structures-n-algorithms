@@ -138,12 +138,17 @@ int main()
 {
     List l1;
 
-    l1.insert(10);
-    l1.insert(20);
-    l1.insert(30);
-    l1.insert(40);
-    l1.insert(50);
+    // l1.insert(10);
+    // l1.insert(20);
+    // l1.insert(30);
+    // l1.insert(40);
+    // l1.insert(50);
     l1.insertRare(60);
+    l1.insertRare(50);
+    l1.insertRare(40);
+    l1.insertRare(30);
+    l1.insertRare(20);
+    l1.insertRare(10);
     l1.deleteSp(20);
     l1.deletRare();
     l1.Disp();
