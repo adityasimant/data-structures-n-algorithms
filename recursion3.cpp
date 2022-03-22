@@ -14,7 +14,9 @@ int digit(int x, int n)
 
 int main()
 {
-
-    cout << digit(0, 3251);
+    cout<<"Entre the number : ";
+    int x;
+    cin>>x;
+    cout << digit(0, x);
     return 0;
 }
