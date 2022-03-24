@@ -1,4 +1,4 @@
-#include <iostream>
+  #include <iostream>
 using namespace std;
 
 class Node
@@ -144,6 +144,6 @@ int main()
     t1.add(44);
     t1.find();
     t1.dispInorder();
-    t1.srchitm(54);
+    t1.srchitm(50);
     return 0;
 }
